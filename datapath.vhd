@@ -100,6 +100,10 @@ begin
 
 	-- ADDER
 	ADDER1 : adder generic map (N) port map ( A => one, B => mux3out, Y => adderout);
-
-
+	
+	--put here the connection to debug
+	CNT_in <= mux1out;
+	DIV_in <= mux2out;
+	DATA <= CNT_out;
+	
 end struct;
