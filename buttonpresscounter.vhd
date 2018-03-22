@@ -67,6 +67,14 @@ architecture struct of buttonpresscounter is
 			);
 	end component;
 
+	component syncronizer is
+	port (
+		CLK, rst_n 	: in std_logic;
+		sync 			: in std_logic;
+		Q 				: out std_logic
+	);
+	end component;
+
 
 	signal selCNT			: std_logic;
 	signal selDIV 			: std_logic;
@@ -75,6 +83,7 @@ architecture struct of buttonpresscounter is
 	signal adder_sel_in	: std_logic;
 	signal cnt_eq_L		: std_logic;
 	signal div_eq_N		: std_logic;
+	signal GO_sync			: std_logic;
 	
 	signal CNT 				: std_logic_vector (N_bit_out-1 downto 0);
 	signal DIV 				: std_logic_vector (N_bit_out-1 downto 0);
@@ -84,11 +93,16 @@ architecture struct of buttonpresscounter is
 
 
 begin
+
+	SYNC : syncronizer port map( 	CLK				=> CLK,
+											rst_n				=> rst_n,
+											sync				=> GO,
+											Q					=> GO_sync);
 	CTRL : ctrlunit 	generic map ( N_bit_out ) 
 							port map ( 	CLK 			=> CLK, 
 											rst_n 		=> rst_n,
 											CNT 			=> CNT,
-											GO 			=> GO,
+											GO 			=> GO_sync,
 											DIV 			=> DIV,
 											cnt_eq_L		=> cnt_eq_L,
 											div_eq_N		=> div_eq_N,

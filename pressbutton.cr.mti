@@ -14,17 +14,22 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity ctrlunit
 -- Compiling architecture behav of ctrlunit
 
-} {} {}} D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd
+} {} {}} D:/Repository/corso_loghi/pressbutton/syncronizer.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/syncronizer.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity buttonpresscounter
--- Compiling architecture struct of buttonpresscounter
-** Warning: D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd(82): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+-- Compiling entity syncronizer
+-- Compiling architecture s of syncronizer
 
-** Warning: D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd(83): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
-
+} {} {}} D:/Repository/corso_loghi/pressbutton/tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB
+-- Compiling architecture behav of TB
 
 } {} {}} D:/Repository/corso_loghi/pressbutton/datapath.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/datapath.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
