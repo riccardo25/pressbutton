@@ -1,4 +1,20 @@
-D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd
+D:/Repository/corso_loghi/pressbutton/register.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/register.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture s of reg
+
+} {} {}} D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ctrlunit
+-- Compiling architecture behav of ctrlunit
+
+} {} {}} D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -9,31 +25,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 
 ** Warning: D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd(83): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 
-
-} {} {}} D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ctrlunit
--- Compiling architecture behav of ctrlunit
-
-} {} {}} D:/Repository/corso_loghi/pressbutton/register.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/register.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity reg
--- Compiling architecture s of reg
-
-} {} {}} D:/Repository/corso_loghi/pressbutton/tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/tb.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity TB
--- Compiling architecture behav of TB
 
 } {} {}} D:/Repository/corso_loghi/pressbutton/datapath.vhd {2 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/datapath.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -46,14 +37,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 ** Warning: D:/Repository/corso_loghi/pressbutton/datapath.vhd(82): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
 
 
-} {} {}} D:/Repository/corso_loghi/pressbutton/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/adder.vhd
+} {} {}} D:/Repository/corso_loghi/pressbutton/mux2input.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/mux2input.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity adder
--- Compiling architecture s of adder
+-- Compiling entity mux2input
+-- Compiling architecture s of mux2input
 
 } {} {}} D:/Repository/corso_loghi/pressbutton/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/comparator.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -64,12 +54,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity comparator
 -- Compiling architecture s of comparator
 
-} {} {}} D:/Repository/corso_loghi/pressbutton/mux2input.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/mux2input.vhd
+} {} {}} D:/Repository/corso_loghi/pressbutton/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Repository/corso_loghi/pressbutton/adder.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux2input
--- Compiling architecture s of mux2input
+-- Loading package NUMERIC_STD
+-- Compiling entity adder
+-- Compiling architecture s of adder
 
 } {} {}}

@@ -87,9 +87,9 @@ begin
 	DIVS : reg generic map (N) port map (CLK => CLK, rst_n => rst_n, load => loadDIV, D => DIV_in, Q => DIV_out);
 
 	-- MUX for CNT
-	MUX1: mux2input generic map (N) port map (sel => loadCNT, I0 => adderout, I1 => (others => '0'), Y => mux1out );
+	MUX1: mux2input generic map (N) port map (sel => selCNT, I0 => adderout, I1 => (others => '0'), Y => mux1out );
 	-- MUX for DIV
-	MUX2: mux2input generic map (N) port map (sel => loadDIV, I0 => (others => '0'), I1 => adderout, Y => mux2out );
+	MUX2: mux2input generic map (N) port map (sel => selDIV, I0 => (others => '0'), I1 => adderout, Y => mux2out );
 	--MUX for adder
 	MUX3: mux2input generic map (N) port map (sel => adder_sel_in, I0 => CNT_out, I1 => DIV_out, Y => mux3out );
 

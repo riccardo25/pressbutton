@@ -50,8 +50,11 @@ begin
 		wait for RESET_TIME;
 		rst_n <= '1';
 		GO <= '1';
-		wait for 300 ns;
-		done <= '1';
+		wait for 1500 ns;
+		GO <= '0';
+		wait for 400 ns;
+		GO <= '1';
+		--done <= '1';
 	wait;
 	end process start_process;
 

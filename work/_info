@@ -22,9 +22,9 @@ VzA>Y>RUBE8@:1iiboYDk50
 !s100 >Tc7oIMVmf>0fPW9D2_lE2
 Z7 OP;C;10.4a;61
 32
-Z8 !s110 1521582223
+Z8 !s110 1521736893
 !i10b 1
-Z9 !s108 1521582223.000000
+Z9 !s108 1521736893.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/adder.vhd|
 Z11 !s107 D:/Repository/corso_loghi/pressbutton/adder.vhd|
 !i113 1
@@ -62,11 +62,11 @@ V8<JAU24b2<Z;AEA[CCT8P0
 !s100 4049I3fF<3izbP3Vfa1jn3
 R7
 32
-Z17 !s110 1521582224
+R8
 !i10b 1
-Z18 !s108 1521582224.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd|
-Z20 !s107 D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd|
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd|
+Z18 !s107 D:/Repository/corso_loghi/pressbutton/buttonpresscounter.vhd|
 !i113 1
 R12
 R13
@@ -80,22 +80,22 @@ V_Io4zZ@Q[k_KN2@AX`Ycb0
 !s100 MI7`Z5:40@Vh3dhJeO=nV0
 R7
 32
-R17
+R8
 !i10b 1
+R9
+R17
 R18
-R19
-R20
 !i113 1
 R12
 R13
 Ecomparator
-Z21 w1521497389
+Z19 w1521497389
 R1
 R2
 R3
 R4
-Z22 8D:/Repository/corso_loghi/pressbutton/comparator.vhd
-Z23 FD:/Repository/corso_loghi/pressbutton/comparator.vhd
+Z20 8D:/Repository/corso_loghi/pressbutton/comparator.vhd
+Z21 FD:/Repository/corso_loghi/pressbutton/comparator.vhd
 l0
 L5
 Voi@FhTYef2I=kOnT<QfL^3
@@ -105,8 +105,8 @@ R7
 R8
 !i10b 1
 R9
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/comparator.vhd|
-Z25 !s107 D:/Repository/corso_loghi/pressbutton/comparator.vhd|
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/comparator.vhd|
+Z23 !s107 D:/Repository/corso_loghi/pressbutton/comparator.vhd|
 !i113 1
 R12
 R13
@@ -124,18 +124,18 @@ R7
 R8
 !i10b 1
 R9
-R24
-R25
+R22
+R23
 !i113 1
 R12
 R13
 Ectrlunit
-Z26 w1521499723
+Z24 w1521499723
 R2
 R3
 R4
-Z27 8D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
-Z28 FD:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
+Z25 8D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
+Z26 FD:/Repository/corso_loghi/pressbutton/ctrlunit.vhd
 l0
 L4
 V5lHPAYLlf=bd?]gJ7ehXX3
@@ -145,8 +145,8 @@ R7
 R8
 !i10b 1
 R9
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd|
-Z30 !s107 D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd|
+Z28 !s107 D:/Repository/corso_loghi/pressbutton/ctrlunit.vhd|
 !i113 1
 R12
 R13
@@ -163,30 +163,30 @@ R7
 R8
 !i10b 1
 R9
-R29
-R30
+R27
+R28
 !i113 1
 R12
 R13
 Edatapath
-Z31 w1521582201
+Z29 w1521736079
 R1
 R2
 R3
 R4
-Z32 8D:/Repository/corso_loghi/pressbutton/datapath.vhd
-Z33 FD:/Repository/corso_loghi/pressbutton/datapath.vhd
+Z30 8D:/Repository/corso_loghi/pressbutton/datapath.vhd
+Z31 FD:/Repository/corso_loghi/pressbutton/datapath.vhd
 l0
 L6
 VbAGc1mK5gUDS>6J>[mU?11
 !s100 H_EP[0UP>8IIQ@8f]IKoE2
 R7
 32
-R17
+R8
 !i10b 1
 R9
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/datapath.vhd|
-Z35 !s107 D:/Repository/corso_loghi/pressbutton/datapath.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/datapath.vhd|
+Z33 !s107 D:/Repository/corso_loghi/pressbutton/datapath.vhd|
 !i113 1
 R12
 R13
@@ -197,25 +197,25 @@ R3
 DEx4 work 8 datapath 0 22 bAGc1mK5gUDS>6J>[mU?11
 l84
 L39
-VD66o??gN<YJX5ieQ=:^9>0
-!s100 hcfbmE7IXF=?G]e9ebRbG0
+V?ac=QM5H0IzW5ELfW>kH]2
+!s100 HBe<NEj`kZJCc9>gEKRmZ2
 R7
 32
-R17
+R8
 !i10b 1
 R9
-R34
-R35
+R32
+R33
 !i113 1
 R12
 R13
 Emux2input
-Z36 w1521497765
+Z34 w1521497765
 R2
 R3
 R4
-Z37 8D:/Repository/corso_loghi/pressbutton/mux2input.vhd
-Z38 FD:/Repository/corso_loghi/pressbutton/mux2input.vhd
+Z35 8D:/Repository/corso_loghi/pressbutton/mux2input.vhd
+Z36 FD:/Repository/corso_loghi/pressbutton/mux2input.vhd
 l0
 L4
 VA?bQcTQ1_k`z[ez07UQf>0
@@ -225,8 +225,8 @@ R7
 R8
 !i10b 1
 R9
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/mux2input.vhd|
-Z40 !s107 D:/Repository/corso_loghi/pressbutton/mux2input.vhd|
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/mux2input.vhd|
+Z38 !s107 D:/Repository/corso_loghi/pressbutton/mux2input.vhd|
 !i113 1
 R12
 R13
@@ -243,29 +243,29 @@ R7
 R8
 !i10b 1
 R9
-R39
-R40
+R37
+R38
 !i113 1
 R12
 R13
 Ereg
-Z41 w1521499001
+Z39 w1521499001
 R2
 R3
 R4
-Z42 8D:/Repository/corso_loghi/pressbutton/register.vhd
-Z43 FD:/Repository/corso_loghi/pressbutton/register.vhd
+Z40 8D:/Repository/corso_loghi/pressbutton/register.vhd
+Z41 FD:/Repository/corso_loghi/pressbutton/register.vhd
 l0
 L4
 VIIJJf[5LmYW4GP2IbjIbg2
 !s100 7`EY_P>ZbWENGlSm_Ec2T3
 R7
 32
-R17
+R8
 !i10b 1
-R18
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/register.vhd|
-Z45 !s107 D:/Repository/corso_loghi/pressbutton/register.vhd|
+R9
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/register.vhd|
+Z43 !s107 D:/Repository/corso_loghi/pressbutton/register.vhd|
 !i113 1
 R12
 R13
@@ -279,32 +279,32 @@ VZaLI6lX_DR;CY1z:YZeh]3
 !s100 hMYPF^KHXI]I6P82i<@Ya3
 R7
 32
-R17
+R8
 !i10b 1
-R18
-R44
-R45
+R9
+R42
+R43
 !i113 1
 R12
 R13
 Ereg8
-Z46 w1521498796
+Z44 w1521498796
 R2
 R3
 R4
-R42
-R43
+R40
+R41
 l0
 L4
 V_QM?T>2MP0J7HPFNQ;^eW1
 !s100 91bJ94l@4QoQck=lTV9Wg3
 R7
 32
-Z47 !s110 1521498866
+Z45 !s110 1521498866
 !i10b 1
-Z48 !s108 1521498866.000000
-R44
-R45
+Z46 !s108 1521498866.000000
+R42
+R43
 !i113 1
 R12
 R13
@@ -318,31 +318,31 @@ VoATgY6?d@RODV_3LiWC_L3
 !s100 Og6j0I01Lz8jAKUdi0z882
 R7
 32
-R47
-!i10b 1
-R48
-R44
 R45
+!i10b 1
+R46
+R42
+R43
 !i113 1
 R12
 R13
 Etb
-Z49 w1521580198
+Z47 w1521736888
 R1
 R2
 R3
 R4
-Z50 8D:/Repository/corso_loghi/pressbutton/tb.vhd
-Z51 FD:/Repository/corso_loghi/pressbutton/tb.vhd
+Z48 8D:/Repository/corso_loghi/pressbutton/tb.vhd
+Z49 FD:/Repository/corso_loghi/pressbutton/tb.vhd
 l0
 L7
 V5>4FYOk@:0kG`0mjnSX;b1
 !s100 j8fcZmA<G4nRK]?:L^aIm3
 R7
 32
-R17
+Z50 !s110 1521736894
 !i10b 1
-R18
+Z51 !s108 1521736894.000000
 Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Repository/corso_loghi/pressbutton/tb.vhd|
 Z53 !s107 D:/Repository/corso_loghi/pressbutton/tb.vhd|
 !i113 1
@@ -355,13 +355,13 @@ R3
 Z54 DEx4 work 2 tb 0 22 5>4FYOk@:0kG`0mjnSX;b1
 l37
 L10
-Z55 VBDAUNnT6DPb]0`V53H5Oo2
-Z56 !s100 2>YgV2fdoL1VPzRm=`l2C3
+Vni<P:C?LXmFELgI]=TUSg0
+!s100 <:72ahMI]l9eBnindXPLl0
 R7
 32
-R17
+R50
 !i10b 1
-R18
+R51
 R52
 R53
 !i113 1

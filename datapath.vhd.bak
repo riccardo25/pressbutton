@@ -104,5 +104,6 @@ begin
 	--put here the connection to debug
 	CNT_in <= mux1out;
 	DIV_in <= mux2out;
+	DATA <= CNT_out;
 	
 end struct;
